@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1827B2D02436E28DEF98C882E793774E /* Surge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C56AFFA586E06A9AB85A904F4EDFCFB /* Surge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2417238CDAABE07AA252A6DB9B2689BB /* Exponential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 993E178AF721237A57F8BF9135F873B6 /* Exponential.swift */; };
+		298F7AE62125879B0CA1C585917F404C /* Pods-OdontocetiSwift5-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE9B12A7335FD6A674B002287D9F43C /* Pods-OdontocetiSwift5-dummy.m */; };
+		2A5DBC99818A08CD9294722424E9DC4D /* Hyperbolic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676688ADF61A1CCDB62A3F8EF509AD1D /* Hyperbolic.swift */; };
+		2E04AAA2E3146541BFBF7B4287F042FB /* Surge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B898FEFE7F6C36A4E16C5F16A14771A2 /* Surge-dummy.m */; };
+		303D6666F4A92228E818525D659A606E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F238D452C4D0BB92CF9A235292DE2F6F /* Foundation.framework */; };
+		340B466CBA1088F0D012CD0CE05650D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F238D452C4D0BB92CF9A235292DE2F6F /* Foundation.framework */; };
+		3DA4B75449A03BB3AED7F05BC61C781E /* Convolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD7313C2BFAC9810DE7449D4A693DC83 /* Convolution.swift */; };
+		4322034FA467BA4DCB91CE1B9C8E9A64 /* Pods-OdontocetiSwift5-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE7205F0EB524CAAC39DD8D23F40C08 /* Pods-OdontocetiSwift5-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71418FFB7439022F0BE9F82DCA119CA1 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707D67222C9BA12844AD8D9C6CF6752D /* Matrix.swift */; };
+		75B79EF962B30C9A6C18122F1E8D9895 /* FFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A1341037E7D879D9A6A997B6B9EA0A /* FFT.swift */; };
+		7960328074653544B0F3E1B77E1AE367 /* Arithmetic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02CDE2A445C9E4C66AACB7B4799E0391 /* Arithmetic.swift */; };
+		89C00C0CC332A8F71967C58C40F085B5 /* Auxiliary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9EB3597758FC458F59DA54D26117E0 /* Auxiliary.swift */; };
+		A1245932CBBBE70A10AD769723979203 /* Power.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1280CA291A772CCDC3FE89D100F90A80 /* Power.swift */; };
+		D0341D5D4F8AFC83444C5DE045DD1BA6 /* Trigonometric.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93EA6C22F91482A488182265CFE4FD24 /* Trigonometric.swift */; };
+		D6144E34E5113C67462C8F990AC006A0 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE87F1FC5499A3A69EF348EB5CF1AF5B /* Accelerate.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8092A89CBBE52D14BEB803BDE8C1C296 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29646BE79525429BCB5257178B28C106;
+			remoteInfo = Surge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02CDE2A445C9E4C66AACB7B4799E0391 /* Arithmetic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Arithmetic.swift; path = Source/Arithmetic.swift; sourceTree = "<group>"; };
+		04F8D3064A1A709D4C813967BD4B2269 /* Pods-OdontocetiSwift5.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OdontocetiSwift5.modulemap"; sourceTree = "<group>"; };
+		105AEC240E6A4F2A4F1EDC742F12277F /* Pods_OdontocetiSwift5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OdontocetiSwift5.framework; path = "Pods-OdontocetiSwift5.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1280CA291A772CCDC3FE89D100F90A80 /* Power.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Power.swift; path = Source/Power.swift; sourceTree = "<group>"; };
+		16F8E652C2F55DE74DC639BD78FD37C4 /* Surge-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Surge-prefix.pch"; sourceTree = "<group>"; };
+		3CDFF6F3FCEA666F51DE2F2623B96067 /* Pods-OdontocetiSwift5-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-OdontocetiSwift5-frameworks.sh"; sourceTree = "<group>"; };
+		5FA8DBA7F8372EA7FF7F3F07643B9F54 /* Pods-OdontocetiSwift5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OdontocetiSwift5.release.xcconfig"; sourceTree = "<group>"; };
+		676688ADF61A1CCDB62A3F8EF509AD1D /* Hyperbolic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Hyperbolic.swift; path = Source/Hyperbolic.swift; sourceTree = "<group>"; };
+		707D67222C9BA12844AD8D9C6CF6752D /* Matrix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Matrix.swift; path = Source/Matrix.swift; sourceTree = "<group>"; };
+		7C56AFFA586E06A9AB85A904F4EDFCFB /* Surge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Surge-umbrella.h"; sourceTree = "<group>"; };
+		8CF1DB4A92EA424BCF4BAE53D09D60DF /* Surge-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Surge-Info.plist"; sourceTree = "<group>"; };
+		93EA6C22F91482A488182265CFE4FD24 /* Trigonometric.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Trigonometric.swift; path = Source/Trigonometric.swift; sourceTree = "<group>"; };
+		993E178AF721237A57F8BF9135F873B6 /* Exponential.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exponential.swift; path = Source/Exponential.swift; sourceTree = "<group>"; };
+		9A6FD438DC0223E55BF0B8C9493B5505 /* Surge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Surge.framework; path = Surge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA9EB3597758FC458F59DA54D26117E0 /* Auxiliary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Auxiliary.swift; path = Source/Auxiliary.swift; sourceTree = "<group>"; };
+		ACE7205F0EB524CAAC39DD8D23F40C08 /* Pods-OdontocetiSwift5-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OdontocetiSwift5-umbrella.h"; sourceTree = "<group>"; };
+		ADDAC1E202812B1E05BB583C02D84267 /* Pods-OdontocetiSwift5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OdontocetiSwift5.debug.xcconfig"; sourceTree = "<group>"; };
+		B69039BDC89F2FC8F443C75FEF92E216 /* Surge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Surge.modulemap; sourceTree = "<group>"; };
+		B743622F8AEB64AA2B26B3301E73CC09 /* Pods-OdontocetiSwift5-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OdontocetiSwift5-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B898FEFE7F6C36A4E16C5F16A14771A2 /* Surge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Surge-dummy.m"; sourceTree = "<group>"; };
+		BE2F8C7F9F278FD447A7A64234C6BF12 /* Pods-OdontocetiSwift5-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OdontocetiSwift5-Info.plist"; sourceTree = "<group>"; };
+		BE87F1FC5499A3A69EF348EB5CF1AF5B /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		C6B06CFCE29A33C2A61941D16DCA511A /* Pods-OdontocetiSwift5-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OdontocetiSwift5-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCE9B12A7335FD6A674B002287D9F43C /* Pods-OdontocetiSwift5-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OdontocetiSwift5-dummy.m"; sourceTree = "<group>"; };
+		DD7313C2BFAC9810DE7449D4A693DC83 /* Convolution.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Convolution.swift; path = Source/Convolution.swift; sourceTree = "<group>"; };
+		E1A1341037E7D879D9A6A997B6B9EA0A /* FFT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FFT.swift; path = Source/FFT.swift; sourceTree = "<group>"; };
+		F214E0A39FA387D34145013DC9616995 /* Surge.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Surge.xcconfig; sourceTree = "<group>"; };
+		F238D452C4D0BB92CF9A235292DE2F6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20F8964FA0C7699DB6420726232861CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6144E34E5113C67462C8F990AC006A0 /* Accelerate.framework in Frameworks */,
+				340B466CBA1088F0D012CD0CE05650D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE0D7CB9567B5FB13327F15B8B076AB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				303D6666F4A92228E818525D659A606E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1135FD94E5F33D0BBFC7167789DD3C5E /* Surge */ = {
+			isa = PBXGroup;
+			children = (
+				02CDE2A445C9E4C66AACB7B4799E0391 /* Arithmetic.swift */,
+				AA9EB3597758FC458F59DA54D26117E0 /* Auxiliary.swift */,
+				DD7313C2BFAC9810DE7449D4A693DC83 /* Convolution.swift */,
+				993E178AF721237A57F8BF9135F873B6 /* Exponential.swift */,
+				E1A1341037E7D879D9A6A997B6B9EA0A /* FFT.swift */,
+				676688ADF61A1CCDB62A3F8EF509AD1D /* Hyperbolic.swift */,
+				707D67222C9BA12844AD8D9C6CF6752D /* Matrix.swift */,
+				1280CA291A772CCDC3FE89D100F90A80 /* Power.swift */,
+				93EA6C22F91482A488182265CFE4FD24 /* Trigonometric.swift */,
+				972147CCEC96178A6E12A16F5975D25B /* Support Files */,
+			);
+			name = Surge;
+			path = Surge;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				669F71783D91A0AF9C6613034AAFB006 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		669F71783D91A0AF9C6613034AAFB006 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BE87F1FC5499A3A69EF348EB5CF1AF5B /* Accelerate.framework */,
+				F238D452C4D0BB92CF9A235292DE2F6F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		89A329AC8EB95410EC63D583E8AC628B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				105AEC240E6A4F2A4F1EDC742F12277F /* Pods_OdontocetiSwift5.framework */,
+				9A6FD438DC0223E55BF0B8C9493B5505 /* Surge.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		972147CCEC96178A6E12A16F5975D25B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B69039BDC89F2FC8F443C75FEF92E216 /* Surge.modulemap */,
+				F214E0A39FA387D34145013DC9616995 /* Surge.xcconfig */,
+				B898FEFE7F6C36A4E16C5F16A14771A2 /* Surge-dummy.m */,
+				8CF1DB4A92EA424BCF4BAE53D09D60DF /* Surge-Info.plist */,
+				16F8E652C2F55DE74DC639BD78FD37C4 /* Surge-prefix.pch */,
+				7C56AFFA586E06A9AB85A904F4EDFCFB /* Surge-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Surge";
+			sourceTree = "<group>";
+		};
+		9D962C8896C9BE4DD0D4C5F3D2786118 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1135FD94E5F33D0BBFC7167789DD3C5E /* Surge */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B73DBD35B822AC6188464D04DDA7C4F0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5B4426A86C076930A4B9C51D817B66D /* Pods-OdontocetiSwift5 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				9D962C8896C9BE4DD0D4C5F3D2786118 /* Pods */,
+				89A329AC8EB95410EC63D583E8AC628B /* Products */,
+				B73DBD35B822AC6188464D04DDA7C4F0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F5B4426A86C076930A4B9C51D817B66D /* Pods-OdontocetiSwift5 */ = {
+			isa = PBXGroup;
+			children = (
+				04F8D3064A1A709D4C813967BD4B2269 /* Pods-OdontocetiSwift5.modulemap */,
+				B743622F8AEB64AA2B26B3301E73CC09 /* Pods-OdontocetiSwift5-acknowledgements.markdown */,
+				C6B06CFCE29A33C2A61941D16DCA511A /* Pods-OdontocetiSwift5-acknowledgements.plist */,
+				DCE9B12A7335FD6A674B002287D9F43C /* Pods-OdontocetiSwift5-dummy.m */,
+				3CDFF6F3FCEA666F51DE2F2623B96067 /* Pods-OdontocetiSwift5-frameworks.sh */,
+				BE2F8C7F9F278FD447A7A64234C6BF12 /* Pods-OdontocetiSwift5-Info.plist */,
+				ACE7205F0EB524CAAC39DD8D23F40C08 /* Pods-OdontocetiSwift5-umbrella.h */,
+				ADDAC1E202812B1E05BB583C02D84267 /* Pods-OdontocetiSwift5.debug.xcconfig */,
+				5FA8DBA7F8372EA7FF7F3F07643B9F54 /* Pods-OdontocetiSwift5.release.xcconfig */,
+			);
+			name = "Pods-OdontocetiSwift5";
+			path = "Target Support Files/Pods-OdontocetiSwift5";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6758C70DF7E9756ED3CD425431F4FD6C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1827B2D02436E28DEF98C882E793774E /* Surge-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E91EAC5ED52E361ABBF1AB7AB8C01583 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4322034FA467BA4DCB91CE1B9C8E9A64 /* Pods-OdontocetiSwift5-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		29646BE79525429BCB5257178B28C106 /* Surge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C480C312265764E38A819F791ED0F48 /* Build configuration list for PBXNativeTarget "Surge" */;
+			buildPhases = (
+				6758C70DF7E9756ED3CD425431F4FD6C /* Headers */,
+				EC5A95C250CB620A13C339185502BA7E /* Sources */,
+				20F8964FA0C7699DB6420726232861CB /* Frameworks */,
+				41DC3B5CE0354A0BEA30DFCD36DB5522 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Surge;
+			productName = Surge;
+			productReference = 9A6FD438DC0223E55BF0B8C9493B5505 /* Surge.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3706B8483B8125BF98E8406CB7A7496C /* Pods-OdontocetiSwift5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F6D3B112B2DCFF87D55292B5D8CD253 /* Build configuration list for PBXNativeTarget "Pods-OdontocetiSwift5" */;
+			buildPhases = (
+				E91EAC5ED52E361ABBF1AB7AB8C01583 /* Headers */,
+				F3AD3DA9546EDB736811C77CA891922F /* Sources */,
+				DE0D7CB9567B5FB13327F15B8B076AB6 /* Frameworks */,
+				C23267951E9B9481BB5758292339650E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6EFC7ED1CA61066DECBEC7FEBE7F560 /* PBXTargetDependency */,
+			);
+			name = "Pods-OdontocetiSwift5";
+			productName = "Pods-OdontocetiSwift5";
+			productReference = 105AEC240E6A4F2A4F1EDC742F12277F /* Pods_OdontocetiSwift5.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 89A329AC8EB95410EC63D583E8AC628B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3706B8483B8125BF98E8406CB7A7496C /* Pods-OdontocetiSwift5 */,
+				29646BE79525429BCB5257178B28C106 /* Surge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41DC3B5CE0354A0BEA30DFCD36DB5522 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C23267951E9B9481BB5758292339650E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC5A95C250CB620A13C339185502BA7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7960328074653544B0F3E1B77E1AE367 /* Arithmetic.swift in Sources */,
+				89C00C0CC332A8F71967C58C40F085B5 /* Auxiliary.swift in Sources */,
+				3DA4B75449A03BB3AED7F05BC61C781E /* Convolution.swift in Sources */,
+				2417238CDAABE07AA252A6DB9B2689BB /* Exponential.swift in Sources */,
+				75B79EF962B30C9A6C18122F1E8D9895 /* FFT.swift in Sources */,
+				2A5DBC99818A08CD9294722424E9DC4D /* Hyperbolic.swift in Sources */,
+				71418FFB7439022F0BE9F82DCA119CA1 /* Matrix.swift in Sources */,
+				A1245932CBBBE70A10AD769723979203 /* Power.swift in Sources */,
+				2E04AAA2E3146541BFBF7B4287F042FB /* Surge-dummy.m in Sources */,
+				D0341D5D4F8AFC83444C5DE045DD1BA6 /* Trigonometric.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3AD3DA9546EDB736811C77CA891922F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				298F7AE62125879B0CA1C585917F404C /* Pods-OdontocetiSwift5-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6EFC7ED1CA61066DECBEC7FEBE7F560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Surge;
+			target = 29646BE79525429BCB5257178B28C106 /* Surge */;
+			targetProxy = 8092A89CBBE52D14BEB803BDE8C1C296 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0863CF53CB71E3AC8E666B81146F618A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F214E0A39FA387D34145013DC9616995 /* Surge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Surge/Surge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Surge/Surge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Surge/Surge.modulemap";
+				PRODUCT_MODULE_NAME = Surge;
+				PRODUCT_NAME = Surge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		509A00B48DC85F9D2837304B2F5CCC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F214E0A39FA387D34145013DC9616995 /* Surge.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Surge/Surge-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Surge/Surge-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Surge/Surge.modulemap";
+				PRODUCT_MODULE_NAME = Surge;
+				PRODUCT_NAME = Surge;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84E9FC55D5735E8B3A0F871A13D767B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA8DBA7F8372EA7FF7F3F07643B9F54 /* Pods-OdontocetiSwift5.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OdontocetiSwift5/Pods-OdontocetiSwift5-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OdontocetiSwift5/Pods-OdontocetiSwift5.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88C28D323DEAA0D9D1160A9EA70EACE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADDAC1E202812B1E05BB583C02D84267 /* Pods-OdontocetiSwift5.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-OdontocetiSwift5/Pods-OdontocetiSwift5-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-OdontocetiSwift5/Pods-OdontocetiSwift5.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C480C312265764E38A819F791ED0F48 /* Build configuration list for PBXNativeTarget "Surge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				509A00B48DC85F9D2837304B2F5CCC30 /* Debug */,
+				0863CF53CB71E3AC8E666B81146F618A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F6D3B112B2DCFF87D55292B5D8CD253 /* Build configuration list for PBXNativeTarget "Pods-OdontocetiSwift5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88C28D323DEAA0D9D1160A9EA70EACE2 /* Debug */,
+				84E9FC55D5735E8B3A0F871A13D767B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
