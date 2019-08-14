@@ -28,7 +28,7 @@ If you are interested in such a riddle and thrilled about indoor navigation solu
 join me on that effort!
 
 
-<h2>#References:</h2>
+<h3>#References:</h3>
 
 1. This blog post - https://medium.com/@gregorymfoster/how-any-app-could-track-the-indoor-location-of-everyone-magnetic-localization-acf3707716de
 2. The project main repository - https://github.com/gregorymfoster/odontoceti
