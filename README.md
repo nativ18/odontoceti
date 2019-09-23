@@ -4,12 +4,12 @@ This project demonstrates how to use the device sensors - Magnetometer, Accelero
 to create an indoor mapping that would, later on, will be used in an indoor navigation app.
 
 
-The main project was broken - it was written in Swift 3 and uses a framework that doesn't exist in the repository, or anywhere else by its name.  
+The main project was broken - it was written in Swift 3 and used a framework that doesn't exist in the repository, or anywhere else by its name.  
 This fork was built in order to deal with those problems.
 
 <h2>Fixes I've made:</h2>
-I replace the use of Linear.framework with Accelerate and Surge pods to provide the linear algebra functionality that this project so depends on.
-While doint that I needed to rewrite parts of the math and even reinvent the wheel because I couldn't find some of the math methods in these pods.
+I replaced the use of Linear.framework with Accelerate and Surge pods to provide the linear algebra functionality that this project so depends on.
+While doing that I needed to rewrite parts of the math and even reinvent the wheel because I couldn't find some of the math methods in these pods.
 Apart from this, I also upgraded it to Swift 5(instead of Swift 3) and dealt with a broken project file.
 
 
